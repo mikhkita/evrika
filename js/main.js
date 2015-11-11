@@ -41,6 +41,15 @@ $(document).ready(function(){
     }
     $.fn.placeholder();
     
+    $('.slick-slider').slick({
+        autoplay: true,
+        dots: true,
+        infinite: true,
+        fade: true,
+        arrows: false,
+        autoplaySpeed: 3000
+    });
+
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
  //    var myOptions = {
  //        zoom: 16,

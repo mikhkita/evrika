@@ -9,6 +9,7 @@
 	<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
+	<link rel="stylesheet" href="css/slick.css" type="text/css">
 	<link rel="stylesheet" href="css/KitAnimate.css" type="text/css">
 	<link rel="stylesheet" href="css/layout.css" type="text/css">
 	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
@@ -26,6 +27,7 @@
 	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
 	<script type="text/javascript" src="js/KitProgress.js"></script>
 	<script type="text/javascript" src="js/KitAnimate.js"></script>
 	<script type="text/javascript" src="js/device.js"></script>
@@ -57,19 +59,91 @@
 	</div>
 	<div class="b b-2">
 		<div class="b-block">
-			<div class="b-slider">
+			<div class="b-slider slick-slider">
 				<div class="b-slide">
-					<div class="b-corner-left-top"></div>
-					<div class="b-corner-left-bottom"></div>
-					<div class="b-corner-right-top"></div>
-					<div class="b-corner-right-bottom"></div>
-					<h1>Почему франшиза Evrikagames -<br>лучшее вложение до 2 млн рублей</h1>
+					<div class="b-slide-wrap">
+						<div class="b-corner-left-top"></div>
+						<div class="b-corner-left-bottom"></div>
+						<div class="b-corner-right-top"></div>
+						<div class="b-corner-right-bottom"></div>
+						<div class="text">
+							<h1>Почему франшиза Evrikagames -<br>лучшее вложение до 2 млн рублей</h1>
+						</div>
+					</div>
 					<div class="border-bottom"><img src="images/b2-border_bottom.png"></div>
 				</div>
-				<div class="b-slide1" id="b-slide1"></div>
-				<div class="b-slide2" id="b-slide1"></div>
-				<div class="b-slide3" id="b-slide1"></div>
-				<div class="b-slide4" id="b-slide1"></div>
+				<div class="b-slide">
+					<div class="b-slide-wrap">
+						<div class="b-corner-left-top"></div>
+						<div class="b-corner-left-bottom"></div>
+						<div class="b-corner-right-top"></div>
+						<div class="b-corner-right-bottom"></div>
+						<div class="text">
+							<h1 style="font-size: 46px;">70% клиентов приходят по рекомендации</h1>
+						</div>
+					</div>
+					<div class="border-bottom"><img src="images/b2-border_bottom.png"></div>
+				</div>
+				<div class="b-slide">
+					<div class="b-slide-wrap">
+						<div class="b-corner-left-top"></div>
+						<div class="b-corner-left-bottom"></div>
+						<div class="b-corner-right-top"></div>
+						<div class="b-corner-right-bottom"></div>
+						<div class="text">
+							<h1>90% клиентов возвращаются,<br>чтобы пройти еще один квест</h1>
+						</div>
+					</div>
+					<div class="border-bottom"><img src="images/b2-border_bottom.png"></div>
+				</div>
+				<div class="b-slide">
+					<div class="b-slide-wrap">
+						<div class="b-corner-left-top"></div>
+						<div class="b-corner-left-bottom"></div>
+						<div class="b-corner-right-top"></div>
+						<div class="b-corner-right-bottom"></div>
+						<div class="text">
+							<h1 style="font-size: 42px;">С момента запуска франшизы открыто 10 франчайзи и 100% наших партнеров успешны</h1>
+						</div>
+					</div>
+					<div class="border-bottom"><img src="images/b2-border_bottom.png"></div>
+				</div>
+				<div class="b-slide">
+					<div class="b-slide-wrap">
+						<div class="b-corner-left-top"></div>
+						<div class="b-corner-left-bottom"></div>
+						<div class="b-corner-right-top"></div>
+						<div class="b-corner-right-bottom"></div>
+						<div class="text">
+							<h1 style="font-size: 48px;">Зарабатываем на собственных точках до 700 000 рублей чистыми в месяц</h1>
+						</div>
+					</div>
+					<div class="border-bottom"><img src="images/b2-border_bottom.png"></div>
+				</div>
+				<div class="b-slide">
+					<div class="b-slide-wrap">
+						<div class="b-corner-left-top"></div>
+						<div class="b-corner-left-bottom"></div>
+						<div class="b-corner-right-top"></div>
+						<div class="b-corner-right-bottom"></div>
+						<div class="text">
+							<h1 style="font-size: 44px;">Развиваем собственную сеть, а не только франшизу и знаем все нюансы этого бизнеса</h1>
+						</div>
+					</div>
+					<div class="border-bottom"><img src="images/b2-border_bottom.png"></div>
+				</div>
+				<div class="b-slide">
+					<div class="b-slide-wrap">
+						<div class="b-corner-left-top"></div>
+						<div class="b-corner-left-bottom"></div>
+						<div class="b-corner-right-top"></div>
+						<div class="b-corner-right-bottom"></div>
+						<div class="text">
+							<h1 style="font-size: 48px;">Мы являемся одними из основателей квест - индустрии в России</h1>
+						</div>
+					</div>
+					<div class="border-bottom"><img src="images/b2-border_bottom.png"></div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -77,10 +151,11 @@
 		<div class="b-block">
 			<div class="b-form">
 				<h2>Заинтересовало наше предложение? оставьте заявку для уточнения деталей:</h2>
-				<form action="gift.php" method="POST" id="b-form1">
-					<input type="text" id="name" value="Иван Иванов" name="name" required/>
-					<input type="text" id="tel" value="+7 (123) 123 23 23" name="phone" required/>
-					<input type="text" id="tel" value="ivanov@ivan.ru" name="email" required/>
+				<form action="kitsend.php" method="POST" data-block="#b-popup-2">
+					<input type="text" name="name" placeholder="Иван Иванов" required>
+					<input type="text" name="phone" placeholder="+7 (123) 123 23 23" required>
+					<input type="text" name="email" placeholder="ivanov@ivan.ru">
+					<input type="hidden" name="subject" value="Заявка для уточнения деталей">
 					<input type="submit" class="ajax b-red-butt" value="оставить заявку">
 				</form>
 			</div>
@@ -165,18 +240,20 @@
 	</div>
 	<div class="b b-6">
 		<div class="b-block">
-			<div class="b-slider clearfix">
-				<h2 class="b-title after-line before-line">Наша команда:</h2>
-				<div class="b-slide clearfix">
-					<img src="images/b6-p1.png" class="person-photo">
-					<div class="border-bottom"><img src="images/b6-border_bottom.png"></div>
-					<div class="b-slide-cont">
-						<h2>Тут будут фотки отдельно каждого из нас<br>с небольшим комментарием</h2>
-						<img src="images/b6-quotes1.png" class="quotes-left">
-						<p> У нас достаточно крупный холдинг в сфере Хорека и развлечения во Владовостоке. Клубы, рестораны, бары. Узнав про квесты мы решили расширить наше предложение в сфере развлечений города. Точные архитектурные планы и проектная документация позволили нам построить квест своими руками и помощь ребят нам понадобилась для обучения персонала и запуска квеста. Спасибо было и есть приятно работать.</p>
-						<img src="images/b6-quotes.png" class="quotes-right">
+			<h2 class="b-title after-line before-line">Наша команда:</h2>
+			<div class="slick-slider">
+				<div class="b-slider clearfix">
+					<div class="b-slide clearfix">
+						<img src="images/b6-p1.png" class="person-photo">
+						<div class="border-bottom"><img src="images/b6-border_bottom.png"></div>
+						<div class="b-slide-cont">
+							<h2>Тут будут фотки отдельно каждого из нас<br>с небольшим комментарием</h2>
+							<img src="images/b6-quotes1.png" class="quotes-left">
+							<p> У нас достаточно крупный холдинг в сфере Хорека и развлечения во Владовостоке. Клубы, рестораны, бары. Узнав про квесты мы решили расширить наше предложение в сфере развлечений города. Точные архитектурные планы и проектная документация позволили нам построить квест своими руками и помощь ребят нам понадобилась для обучения персонала и запуска квеста. Спасибо было и есть приятно работать.</p>
+							<img src="images/b6-quotes.png" class="quotes-right">
+						</div>
+						<img src="images/b6-key.png" class="b6-key">
 					</div>
-					<img src="images/b6-key.png" class="b6-key">
 				</div>
 			</div>
 		</div>
@@ -185,10 +262,11 @@
 		<div class="b-block">
 			<div class="b-form">
 				<h2>Заинтересовало наше предложение? оставьте заявку для уточнения деталей:</h2>
-				<form action="gift.php" method="POST" id="b-form1">
-					<input type="text" id="name" value="Иван Иванов" name="name" required/>
-					<input type="text" id="tel" value="+7 (123) 123 23 23" name="phone" required/>
-					<input type="text" id="tel" value="ivanov@ivan.ru" name="email" required/>
+				<form action="kitsend.php" method="POST" data-block="#b-popup-2">
+					<input type="text" name="name" placeholder="Иван Иванов" required>
+					<input type="text" name="phone" placeholder="+7 (123) 123 23 23" required>
+					<input type="text" name="email" placeholder="ivanov@ivan.ru">
+					<input type="hidden" name="subject" value="Заявка для уточнения деталей">
 					<input type="submit" class="ajax b-red-butt" value="оставить заявку">
 				</form>
 			</div>
