@@ -90,9 +90,9 @@ $(document).ready(function(){
             active.find('.b-cloud-cont').hide();
     }
 
-        $("body").on("mouseup",".b-city.active,.b-cloud",function(){
-            open = true;
-        });
+        // $("body").on("mouseup",".b-city.active,.b-cloud",function(){
+        //     open = true;
+        // });
 
         $("body").on("mousedown",function() {
             open = false;
