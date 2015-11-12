@@ -85,7 +85,7 @@ body {
 	position: relative;
 }
 body {
-	min-width: 1050px;
+	min-width: 1100px;
 	text-align: center;
 	font-family: 'robotolight';
 	overflow-x: hidden;
@@ -124,7 +124,7 @@ input.error,textarea.error{
 	font-family: "robotothin";
 }
 .ps-lines{
-
+	display: none;
 }
 	.ps-lines li.v{
 		position: fixed;
@@ -194,10 +194,10 @@ input:-moz-placeholder {
 			font-family: 'robotolight';
 			font-size: 20px;
 			margin-left: 190px;
-			margin-top: 5px;
+			margin-top: 11px;
 		}
 	.b-date-cont {
-		padding: 20px 0px;
+		padding: 24px 0px;
 	}
 		.b-date-cont .b-date-cont-phone {
 			font-family: 'neucharegular';
@@ -216,7 +216,7 @@ input:-moz-placeholder {
 			}
 
 .b-2 {
-	background-image: url(../images/b2-fon2.png);
+	background-image: url(../images/b2-fon2.jpg);
 	background-position: center;
 	background-size: cover;
 	padding-top: 298px;
@@ -358,19 +358,26 @@ input:-moz-placeholder {
 				}
 
 .b-4 {
-	background-image: url(../images/b4-fon.png);
+	background-image: url(../images/b4-fon.jpg);
 	background-position: center;
 	background-size: cover;
+	/*overflow: hidden;*/
 }
 	.b-4 .b-img-question {
 		position: absolute;
 		left: -145px;
-    	top: 115px;
+    	top: 555px;
+    	-webkit-transition: all 100ms ease-out;
+		   -moz-transition: all 100ms ease-out;
+				transition: all 100ms ease-out;
 	}
 	.b-4 .b-img-lock {
 		position: absolute;
 		left: 1100px;
-		top: 305px;
+		top: 100px;
+		-webkit-transition: all 100ms ease-out;
+		   -moz-transition: all 100ms ease-out;
+				transition: all 100ms ease-out;
 	}
 	.b-4 .b-appeal {
 		position: relative;
@@ -453,12 +460,15 @@ input:-moz-placeholder {
 				}
 			.b-4 .b-appeal .b-appeal-cont .b-img-key {
 				position: absolute;
-				top: 83px;
+				top: -383px;
     			left: 874px;
+    			-webkit-transition: all 100ms ease-out;
+				   -moz-transition: all 100ms ease-out;
+						transition: all 100ms ease-out;
 			}
 
 .b-5 {
-	background-image: url(../images/b5-fon.png);
+	background-image: url(../images/b5-fon.jpg);
 	background-position: center;
 	background-size: cover;
 	border-top: 4px solid #f6cd45;
@@ -526,7 +536,7 @@ input:-moz-placeholder {
 				}
 
 .b-6 {
-	background-image: url(../images/b6-fon.png);
+	background-image: url(../images/b6-fon.jpg);
 	background-position: center;
 	background-size: cover;
 	border-top: 4px solid #f6cd45;
@@ -649,7 +659,7 @@ input:-moz-placeholder {
 }
 
 .b-8 {
-	background-image: url(../images/b8-fon.png);
+	background-image: url(../images/b8-fon.jpg);
 	background-position: center;
 	background-size: cover;
 }

@@ -23,6 +23,7 @@
 	<script type="text/javascript" src="js/jssor.slider.js"></script>
 	<script type="text/javascript" src="js/TweenMax.min.js"></script>
 	<script type="text/javascript" src="js/swipe.js"></script>
+	<script type="text/javascript" src="js/jquery.stellar.js"></script>
 	<script type="text/javascript" src="js/carousel.lite.js"></script>
 	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
@@ -163,8 +164,8 @@
 	</div>
 	<div class="b b-4">
 		<div class="b-block">
-			<img src="images/b4-question.png" class="b-img-question">
-			<img src="images/b4-lock.png" class="b-img-lock">
+			<img src="images/b4-question.png" data-stellar-ratio="0.8" class="b-img-question">
+			<img src="images/b4-lock.png" data-stellar-ratio="1.1" class="b-img-lock">
 			<div class="b-appeal">
 				<div class="b-corner-left-top"></div>
 				<div class="b-corner-left-bottom"></div>
@@ -174,7 +175,7 @@
 					<h2 class="b-title after-line before-line">Всем привет!</h2>
 					<p><span>Мы основатели компании Эврика.</span> Каждый из нас людей любит развлекаться и мы попав первый раз в парк аттракционов в детстве мечтали стать оператором на аттракционе. Здорово, что жизнь достаточно быстро предоставила нам шанс связать себя со сферой развлечений.<br>Море креатива и каждый день улыбки довольных гостей, вот из чего состоит<br>наш рабочий день в Эврике. </p>
 					<p>Построение франшизы оказалось действительно комплексной задачей. Экономические успехи наших франчайзи позволяют нам радоваться вместе с ними. Приходит осознание, что мы действительно на верном пути. Такая работа приносит нам истинное наслаждение. Если как и мы, Вы хотите кроме прибыли испытывать бурю положительных эмоций от бизнеса, <span>мы с радостью Вам расскажем, поможем, обучим и поддержим.</span></p>
-				<img src="images/b4-key.png" class="b-img-key">
+				<img src="images/b4-key.png" data-stellar-ratio="1.2" class="b-img-key">
 				</div>
 			</div>
 		</div>
@@ -185,7 +186,7 @@
 				<h2 class="b-title after-line before-line">Наши преимущества:</h2>
 				<div class="b-list clearfix">
 					<ul>
-						<li>
+						<li class="anim fadeDown" data-anim="fadeDown" data-delay="0">
 							<div class="b-list-cont">
 								<div class="b-list-cont-rectangle"></div>
 								<img src="images/b5-p1.png">
@@ -197,7 +198,7 @@
 								<img src="images/b5-border_bot.png" class="b-border-bot">
 							</div>
 						</li>
-						<li>
+						<li class="anim fadeDown" data-anim="fadeDown" data-delay="300">
 							<div class="b-list-cont">
 								<div class="b-list-cont-rectangle"></div>
 								<img src="images/b5-p2.png">
@@ -209,7 +210,7 @@
 								<img src="images/b5-border_bot.png" class="b-border-bot">
 							</div>
 						</li>
-						<li>
+						<li class="anim fadeDown" data-anim="fadeDown" data-delay="600">
 							<div class="b-list-cont">
 								<div class="b-list-cont-rectangle"></div>
 								<img src="images/b5-p3.png">
@@ -221,7 +222,7 @@
 								<img src="images/b5-border_bot.png" class="b-border-bot">
 							</div>
 						</li>
-						<li>
+						<li class="anim fadeDown" data-anim="fadeDown" data-delay="900">
 							<div class="b-list-cont">
 								<div class="b-list-cont-rectangle"></div>
 								<img src="images/b5-p4.png">
@@ -342,24 +343,24 @@
 			</div>
 		</div>
 	</div>
-	<div class="b b-8">
+	<div class="b b-8" data-offset="400">
 		<div class="b-block">
 			<div class="b-uniqueness">
 				<h2 class="b-title after-line before-line">Наша уникальность:</h2>
 				<ul>
-					<li class="clearfix">
+					<li class="clearfix anim fadeLeft" data-anim="fadeLeft" data-delay="0" data-cont=".b-8">
 						<div class="b-tick"></div>
 						<p>Привезли свой первый квест из Лондона.<br>Знаем бизнес с обеих сторон</p>
 					</li>
-					<li class="clearfix">
+					<li class="clearfix anim fadeLeft" data-anim="fadeLeft" data-delay="300" data-cont=".b-8">
 						<div class="b-tick"></div>
 						<p>Участвуем в международном партнерстве по квестам</p>
 					</li>
-					<li class="clearfix">
+					<li class="clearfix anim fadeLeft" data-anim="fadeLeft" data-delay="600" data-cont=".b-8">
 						<div class="b-tick"></div>
 						<p>Уникальные сюжеты квестов, с возможностью<br>двойного прохождения</p>
 					</li>
-					<li class="clearfix">
+					<li class="clearfix anim fadeLeft" data-anim="fadeLeft" data-delay="900" data-cont=".b-8">
 						<div class="b-tick"></div>
 						<p>Запатентованный товарный знак</p>
 					</li>

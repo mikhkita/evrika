@@ -1,4 +1,10 @@
 $(document).ready(function(){	
+    $(window).stellar({
+        hideDistantElements: false,
+        horizontalScrolling: false,
+        positionProperty: 'transform'
+    });
+    
     function resize(){
        if( typeof( window.innerWidth ) == 'number' ) {
             myWidth = window.innerWidth;
