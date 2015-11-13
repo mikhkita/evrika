@@ -731,6 +731,9 @@ input:-moz-placeholder {
 		position: absolute;	
 		cursor: pointer;
 	}
+	.b-9 .b-map .b-city.no-click {
+		cursor: default;
+	}
 		.b-9 .b-map .b-city .b-city-name {
 			font-family: 'robotobold';
 			font-size: 17px;
