@@ -1158,7 +1158,21 @@ left: 415px;
 						background-color: #c02f2f;
 						cursor: pointer;
 					}
-
+.b-dev{
+	position: absolute;
+	left: 50%;
+	width: 300px;
+	margin-left: -150px;
+	text-align: center;
+	top: 90px;
+}
+	.b-dev a{
+		color: #FFF;
+		text-decoration: underline;
+	}
+		.b-dev a:hover{
+			text-decoration: none;
+		}
 
 
 
