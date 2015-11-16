@@ -53,17 +53,18 @@ $(document).ready(function(){
         infinite: true,
         fade: true,
         arrows: false,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 5000,
         draggable: false
     });
 
     $('.slick-slider2').slick({
-        autoplay: true,
+        autoplay: false,
         dots: true,
         infinite: true,
         arrows: false,
-        autoplaySpeed: 3000,
-        draggable: false
+        autoplaySpeed: 5000,
+        draggable: false,
+        adaptiveHeight: true
     });
     $('.slick-slider2').on('beforeChange', function(event, slick, currentSlide, nextSlide){
         $(this).find(".person-photo").fadeOut(200);

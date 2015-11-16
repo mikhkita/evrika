@@ -546,7 +546,12 @@ input:-moz-placeholder {
 		margin: 0px auto;
 		padding-top: 155px;
 		padding-bottom: 85px;
+		min-height: 420px;
+		position: relative;
 	}
+		.b-6 .b-slider > div {
+			min-height: 420px;
+		}
 	.b-6 .b-slider .b-slide {
 		position: relative;
 		
@@ -583,15 +588,18 @@ input:-moz-placeholder {
 				border-left: 12px solid #f6cd45;
 				border-right: 12px solid #f6cd45;
 				background: rgba(0,0,0,0.749);
+				position: relative;
 			}
 			.b-6 .b-slider .b-slide .border-bottom {
 				position: absolute;
 				bottom: 0;
 			}
-			.b-6 .b-slider .b-slide .person-photo {
+			.b-6 .b-slider .person-photo {
 				position: absolute;
 				left: -230px;
-				bottom: -85px;
+				left: 0;
+				bottom: -127px;
+				bottom: 0;
 				z-index: 1;
 			}
 			.b-6 .b-slider .b-slide .b-slide-cont {
@@ -615,7 +623,7 @@ input:-moz-placeholder {
 					font-family: 'robotolight';
 					font-size: 15px;
 					text-align: left;
-					padding-top: 58px;
+					padding-top: 45px;
 					padding-bottom: 60px;
 					width: 480px;
 				}
@@ -640,7 +648,6 @@ input:-moz-placeholder {
 			display: inline-block;
 			margin-right: 4px;
 		}
-
 			.slick-slider2 .slick-dots li button {
 				background: none;
 				box-sizing:border-box;
