@@ -67,7 +67,7 @@ $(document).ready(function(){
         adaptiveHeight: true
     });
     $('.slick-slider2').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-        $(this).find(".person-photo").fadeOut(200);
+        $(this).find(".person-photo").hide();
     });
     $('.slick-slider2').on('afterChange', function(event, slick, currentSlide){
         $(this).find(".person-photo").fadeIn();
