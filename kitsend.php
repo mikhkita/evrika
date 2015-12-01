@@ -5,7 +5,7 @@
 	// $email_admin = "soc.taxi.35@gmail.com";
 
 	$from = "“Эврика”";
-	$email_from = "robot@taxi-chita.ru";
+	$email_from = "robot@evrika.ru";
 
 	$deafult = array("name"=>"Имя","phone"=>"Телефон", "email"=>"E-mail");
 
@@ -37,7 +37,14 @@
 			
 		$message .= "</div>";
 		
-		if(send_mime_mail("Сайт ".$from,$email_from,$name,$email_admin,'UTF-8','UTF-8',$subject,$message,true)){	
+		if(send_mime_mail("Сайт ".$from,$email_from,$name,$email_admin,'UTF-8','UTF-8',$subject,$message,true)){
+			if($subject == "Выслать презентацию") {
+				$user_subject = "Evrika";
+				$user_message = "<div><p>Evrika></p></div>";
+				$files = array();
+				array_push($files, dirname(__FILE__)."/Evrika.pdf");
+				XMail("Сайт ".$from,$email_from,$name,$_POST['email'],'UTF-8','UTF-8',$user_subject,$user_message,$files,true);
+			}
 			echo "1";
 		}else{
 			echo "0";
