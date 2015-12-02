@@ -39,8 +39,8 @@
 		
 		if(send_mime_mail("Сайт ".$from,$email_from,$name,$email_admin,'UTF-8','UTF-8',$subject,$message,true)){
 			if($subject == "Выслать презентацию") {
-				$user_subject = "Evrika";
-				$user_message = "<div><p>Evrika></p></div>";
+				$user_subject = "Эврика - квесты в реальности";
+				$user_message = "<div><p>Добрый день!<br>Благодарим за проявленный интерес к франшизе квестов Эврика.<br>Высылаем Вам презентацию.<br>Готовы ответить на интересующие вопросы.<br><br>Эврика - квесты в реальности<br>8-964-589-99-77<br><a href='mailto:franchise@evrikagames.ru'>franchise@evrikagames.ru</a></p></div>";
 				$files = array();
 				array_push($files, dirname(__FILE__)."/Evrika.pdf");
 				XMail("Сайт ".$from,$email_from,$name,$_POST['email'],'UTF-8','UTF-8',$user_subject,$user_message,$files,true);
