@@ -361,7 +361,7 @@ input:-moz-placeholder {
 	background-image: url(../images/b4-fon.jpg);
 	background-position: center;
 	background-size: cover;
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
 	.b-4 .b-img-question {
 		position: absolute;
