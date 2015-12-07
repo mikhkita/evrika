@@ -620,7 +620,7 @@
 					<div class="b-corner-right-bottom"><div class="b-corner-right-bottom2"></div></div>
 					<h3>Оставьте заявку<br>и мы вышлем Вам презентацию:</h3>
 					<hr noshade>
-					<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-2">
+					<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-22">
 						<div class="b-popup-form">
 							<input type="text" class="inp1" name="name" placeholder="Ваше имя" required/>
 							<br>
@@ -639,7 +639,16 @@
 			<div class="b-popup" >
 				<div class="b-popup-cont">
 					<h3>Спасибо!</h3>
-					<h4 style="font-size: 22px;">Ваша заявка успешно отправлена.<br/>Наш менеджер свяжется с Вами в течение часа.</h4>
+					<h4 style="font-size: 22px;">Ваша заявка успешно отправлена.<br/>Мы свяжемся с Вами в ближайшее время.</h4>
+					<input type="submit" class="b-orange-butt" onclick="$.fancybox.close(); return false;" value="Закрыть">
+				</div>
+			</div>
+		</div>
+		<div id="b-popup-22">
+			<div class="b-popup" >
+				<div class="b-popup-cont">
+					<h3>Спасибо!</h3>
+					<h4 style="font-size: 22px;">Презентация отправлена. Мы свяжемся с Вами в ближайшее время для уточнения деталей</h4>
 					<input type="submit" class="b-orange-butt" onclick="$.fancybox.close(); return false;" value="Закрыть">
 				</div>
 			</div>
